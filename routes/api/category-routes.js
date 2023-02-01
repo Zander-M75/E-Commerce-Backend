@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
-const { response } = require('express');
+// const { response } = require('express');
 
 // The `/api/categories` endpoint
 
@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+        attributes: ['product_name']
       }
     ]
   })
@@ -33,7 +33,7 @@ router.get('/:id', (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+        attributes: ['product_name']
       }
     ]
   })
