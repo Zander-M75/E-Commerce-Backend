@@ -7,7 +7,7 @@ This is a backend for an e-commerce site. It uses Express.js API and Sequelize t
 ## Links
 
 * [GitHub Repo](https://github.com/Zander-M75/E-Commerce-Backend "GitHub Repo")
-* [Video Demonstration](https://www.awesomescreenshot.com/video/14546617?key=71e68741435b7defc3cf8fa4eeae1d84 "Video Demonstration")
+* [Video Demonstration](https://www.awesomescreenshot.com/video/14546744?key=0f9a008979dccf04c98290c0ec1021f9 "Video Demonstration")
 
 ## Installation
 
